@@ -1,0 +1,19 @@
+{
+  "name": "@DanzigerGeist/genesys-cloud-function-scaffold",
+  "version": "1.0.0",
+  "exports": {
+    ".": "./src/mod.ts",
+    "./types": "./src/types/mod.ts"
+  },
+  "imports": {
+    "@luca/esbuild-deno-loader": "jsr:@luca/esbuild-deno-loader@0.11.1",
+    "@std/assert": "jsr:@std/assert@1.0.13",
+    "@std/testing": "jsr:@std/testing@^1.0.13",
+    "aws-lambda": "npm:@types/aws-lambda@8.10.149",
+    "esbuild": "npm:esbuild@0.25.5",
+    "purecloud-platform-client-v2": "npm:purecloud-platform-client-v2@^223.0.0"
+  },
+  "fmt": {
+    "lineWidth": 120
+  }
+}
